@@ -9,5 +9,6 @@ def nyc_pigeon_organizer(data)
       hash[name] = {color: [], gender: [], lives: []}
       end
     end
+  end
     binding.pry
 end

@@ -10,5 +10,7 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-    hash[:color]
+    data[:color].each do |color, array|
+      array.each do |name|
+        if name === 
 end
